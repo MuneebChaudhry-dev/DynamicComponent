@@ -1,0 +1,12 @@
+<h2>Dynamic Components in Angular</h2>
+<ul>
+  <li (click)="createComponent(ProductsName.laptop)">Laptop</li>
+  <li (click)="createComponent(ProductsName.mobile)">Mobile</li>
+  <li (click)="createComponent(ProductsName.coffe)">Coffe</li>
+  <li (click)="createComponent(ProductsName.music)">Music</li>
+  <li (click)="createComponent(ProductsName.gym)">Gym</li>
+</ul>
+
+<div class="display black-boarder">
+  <ng-container #container></ng-container>
+</div>
